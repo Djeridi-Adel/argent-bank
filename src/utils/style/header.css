@@ -1,0 +1,53 @@
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+}
+
+.main-nav-logo-image {
+    max-width: 100%;
+    width: 200px;
+}
+
+.link {
+    margin-right: 0.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+    display: flex;
+    gap: 4px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+
+.main-nav-item {
+    display: flex;
+    text-decoration: none;
+    margin-right: 0.5rem;
+}
+
+.link-firstname {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.link-div {
+    display: flex;
+}
+
+
+@media (max-width: 720px) {
+    .main-nav-item {
+        margin-right: 0;
+    }
+    .main-nav {
+        padding: 5px 0px;
+    }
+    .link {
+        margin-right: 5px;
+    }
+}
